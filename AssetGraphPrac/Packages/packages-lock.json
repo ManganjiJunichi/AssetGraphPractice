@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.unity.assetgraph": {
+      "version": "https://github.com/Unity-Technologies/AssetGraph.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c233bb5f9216d9b4c3ba38334e04534207f1b145"
+    },
     "com.unity.collab-proxy": {
       "version": "1.17.2",
       "depth": 0,
