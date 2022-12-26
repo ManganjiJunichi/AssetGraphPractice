@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9a5f17c54584a67b7fe58665965f15, type: 3}
+  m_Name: AssetProcessEventRecord
+  m_EditorClassIdentifier: 
+  m_events:
+  - m_kind: 0
+    m_timestampUtc: 133164494735495656
+    m_assetName: tex_0.png
+    m_assetGuid: c8f5b74c5384cff47a69fb500f25b9c3
+    m_graphGuid: 5a349789279f6734ba8b5b08408c84d6
+    m_nodeId: ff2ecda9-7b63-4cda-853c-b65367cb9ed5
+    m_nodeName: Overwrite Import Settings
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 133164494736262597
+    m_assetName: tex_1.png
+    m_assetGuid: da28dfa7e6f53d944a76ad7c755027e3
+    m_graphGuid: 5a349789279f6734ba8b5b08408c84d6
+    m_nodeId: ff2ecda9-7b63-4cda-853c-b65367cb9ed5
+    m_nodeName: Overwrite Import Settings
+    m_description: 
+    m_howToFix: 
+  - m_kind: 1
+    m_timestampUtc: 133164577691318551
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 5a349789279f6734ba8b5b08408c84d6
+    m_nodeId: 6a7cddd6-e9f5-4b56-ba53-9cbf06b82400
+    m_nodeName: MyNode1
+    m_description: System.NullReferenceException:Object reference not set to an instance
+      of an object
+    m_howToFix: See Console for detail.
+  m_errorEventCount: 5
+  m_infoEventCount: 2
+  m_version: 1
+  m_processStartIndex: 0
