@@ -87,7 +87,7 @@ public class MyNode : Node {
 	}
 
 	/**
-	 * Prepare is called whenever graph needs update. 
+	 * ƒm[ƒh‚ªŒq‚ª‚ê‚½Û‚É‘–‚éˆ—
 	 */ 
 	public override void Prepare (BuildTarget target, 
 		Model.NodeData node, 
@@ -95,33 +95,12 @@ public class MyNode : Node {
 		IEnumerable<Model.ConnectionData> connectionsToOutput, 
 		PerformGraph.Output Output) 
 	{
-		// Pass incoming assets straight to Output
-		//if (Output != null)
-		//{
-		//	var destination = (connectionsToOutput == null || !connectionsToOutput.Any()) ?
-		//		null : connectionsToOutput.First();
-
-		//	if (incoming != null)
-		//	{
-		//		foreach (var ag in incoming)
-		//		{
-		//			Output(destination, ag.assetGroups);
-		//		}
-		//	}
-		//	else
-		//	{
-		//		Overwrite output with empty Dictionary when there is no incoming asset
-		//		Output(destination, new Dictionary<string, List<AssetReference>>());
-		//	}
-		//}
-
-		//var temp = incoming.SelectMany(x => x.assetGroups.Values).Distinct().ToList();
-		//temp.Add(null);
+		// Do nothing
 	}
 
 	/**
-	 * Build is called when Unity builds assets with AssetBundle Graph. 
-	 */ 
+	 * ƒm[ƒh‚ªÀs‚³‚ê‚½Û‚É‘–‚éˆ—
+	 */
 	public override void Build (BuildTarget target, 
 		Model.NodeData nodeData, 
 		IEnumerable<PerformGraph.AssetGroups> incoming, 
